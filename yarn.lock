@@ -275,9 +275,17 @@
   resolved "https://registry.yarnpkg.com/@types/es6-promise/-/es6-promise-0.0.33.tgz#280a707e62b1b6bef1a86cc0861ec63cd06c7ff3"
   integrity sha512-HKJFVLCGrWQ/1unEw8JdaTxu6n3EUxmwTxJ6D0O1x0gD8joCsgoTWxEgevb7fp2XIogNjof3KEd+3bJoGne/nw==
 
-"@types/jest@^22.1.2":
-  version "22.1.2"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-22.1.2.tgz#813a79ec98221633845627636dbc606f31220dbc"
+"@types/jest-diff@*":
+  version "20.0.1"
+  resolved "https://registry.yarnpkg.com/@types/jest-diff/-/jest-diff-20.0.1.tgz#35cc15b9c4f30a18ef21852e255fdb02f6d59b89"
+  integrity sha512-yALhelO3i0hqZwhjtcr6dYyaLoCHbAMshwtj6cGxTvHZAKXHsYGdff6E8EPw3xLKY0ELUTQ69Q1rQiJENnccMA==
+
+"@types/jest@^24.0.9":
+  version "24.0.9"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-24.0.9.tgz#74ce9cf337f25e189aa18f76ab3d65e8669b55f2"
+  integrity sha512-k3OOeevcBYLR5pdsOv5g3OP94h3mrJmLPHFEPWgbbVy2tGv0TZ/TlygiC848ogXhK8NL0I5up7YYtwpCp8xCJA==
+  dependencies:
+    "@types/jest-diff" "*"
 
 "@types/node@*":
   version "6.0.68"
@@ -7531,25 +7539,29 @@ vsce@^1.57.0:
     yauzl "^2.3.1"
     yazl "^2.2.2"
 
-vscode-debugadapter-testsupport@1.19.0:
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/vscode-debugadapter-testsupport/-/vscode-debugadapter-testsupport-1.19.0.tgz#9fc7df778fe642a02309d8f4dd9ba3cc627852f6"
+vscode-debugadapter-testsupport@1.24.0:
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/vscode-debugadapter-testsupport/-/vscode-debugadapter-testsupport-1.24.0.tgz#ac3675b1c53fc16fb524cbd2b7ece7121b625e78"
+  integrity sha1-rDZ1scU/wW+1JMvSt+znEhtiXng=
   dependencies:
-    vscode-debugprotocol "^1.19.0"
+    vscode-debugprotocol "^1.24.0"
 
-vscode-debugadapter@1.19.0:
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/vscode-debugadapter/-/vscode-debugadapter-1.19.0.tgz#aa82eabf7a079a175f5d2d495245a59a156977e5"
+vscode-debugadapter@1.24.0:
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/vscode-debugadapter/-/vscode-debugadapter-1.24.0.tgz#28063b01cca8ac1e5f7a13d118e3207a6e887ffd"
+  integrity sha1-KAY7AcyorB5fehPRGOMgem6If/0=
   dependencies:
-    vscode-debugprotocol "^1.19.0"
+    vscode-debugprotocol "^1.24.0"
 
-vscode-debugprotocol@1.19.0:
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/vscode-debugprotocol/-/vscode-debugprotocol-1.19.0.tgz#b33f1096e098f375a6545e2641d8393b4ac00933"
+vscode-debugprotocol@1.24.0:
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/vscode-debugprotocol/-/vscode-debugprotocol-1.24.0.tgz#dbc10e8d7d95b102727a19af3f0fcef7e252b08e"
+  integrity sha1-28EOjX2VsQJyehmvPw/O9+JSsI4=
 
-vscode-debugprotocol@^1.19.0:
-  version "1.26.0"
-  resolved "https://registry.yarnpkg.com/vscode-debugprotocol/-/vscode-debugprotocol-1.26.0.tgz#8ab4588ae6a67b2c1cce0d866677a74f96a31c7b"
+vscode-debugprotocol@^1.24.0:
+  version "1.33.0"
+  resolved "https://registry.yarnpkg.com/vscode-debugprotocol/-/vscode-debugprotocol-1.33.0.tgz#334d2e76ac965f33437a0298441facdcad377d99"
+  integrity sha512-d+l4lrEz6OP2kmGpweqe37x9H7icAMV8S4m8azTWGAIlNJxBP4rlSTnZa7NMLcbgqWkWG9lTGY7fJ+rSPaW7yg==
 
 vscode@1.1.30:
   version "1.1.30"
